@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		
+		<title>Introdução HTML 5</title>
+		<meta charset="utf-8">
+
+	</head>
+	<body>
+		<form>
+		<!-- Associar Label com os elementos - Boa pratica -->
+		
+<!-- quando clicar no "nome" já encaminha para a caixa de texto -->
+
+		
+		<label for="nome">Nome</label>	
+		<input type="text" id="nome" required autofocus>
+		<br><br>
+
+		<!-- E-mail -->
+
+		<label for="email">E-mail</label>	
+		<input type="email" id="email" required>
+		<br><br>
+
+		<!-- Número -->
+
+		<label for="numero">Número</label>	
+		<input type="number" id="numero" min="1" max="100" step="5">
+		<br><br>
+
+		<!-- URL -->
+
+		<label for="url">URL</label>	
+		<input type="url" id="url" placeholder="Ex: https://www.google.com.br">
+		<br><br>
+
+		<!-- Pesquisar -->
+
+		<label for="pesquisar">Pesquisar</label>	
+		<input type="search" id="pesquisar" placeholder="Ex: digite algo">
+		<br><br>
+
+		<!-- Range-->
+
+		<label for="range">Range</label>	
+		<input type="range" id="range" min="1" max="10000" value="5000">
+		<br><br>
+
+		<!-- Data -->
+
+		<label for="data">Data</label>	
+		<input type="date" id="data">
+		<br><br>
+
+		<!-- Cor -->
+
+		<label for="cor">Cor</label>	
+		<input type="color" id="cor">
+		<br><br>
+
+ 		<input type="submit" name="enviar">
+
+		</form>
+		
+
+	</body>
+</html>
